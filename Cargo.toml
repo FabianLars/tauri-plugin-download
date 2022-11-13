@@ -1,0 +1,17 @@
+[package]
+name = "tauri-plugin-download"
+version = "0.0.0"
+authors = [ "FabianLars &lt;fabianlars@fabianlars.de&gt;" ]
+description = "Tauri plugin for file downloads"
+license = "Apache-2.0 OR MIT"
+edition = "2021"
+rust-version = "1.59"
+exclude = ["/examples", "/webview-dist", "/webview-src", "node_modules"]
+
+[dependencies]
+tauri = { version = "1" }
+serde = "1"
+thiserror = "1"
+reqwest = { version = "0.11", features = ["stream"] }
+tokio = { version = "1", features = ["fs"] }
+futures-util = "0.3"
