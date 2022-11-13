@@ -36,7 +36,7 @@ For more details and usage see [the example app](examples/svelte-app). Please no
 
 ```yaml
 [dependencies.tauri-plugin-download]
-git = "https://github.com/tauri-apps/tauri-plugin-download"
+git = "https://github.com/FabianLars/tauri-plugin-download"
 # tag = "v0.1.0" Not yet available
 ```
 
@@ -58,25 +58,25 @@ fn main() {
 `Install from a tagged release` (Not yet available)
 
 ```
-npm install github:tauri-apps/tauri-plugin-download#v0.1.0
+npm install github:FabianLars/tauri-plugin-download#v0.1.0
 # or
-yarn add github:tauri-apps/tauri-plugin-download#v0.1.0
+yarn add github:FabianLars/tauri-plugin-download#v0.1.0
 ```
 
 `Install from a commit`
 
 ```
-npm install github:tauri-apps/tauri-plugin-download#1234567890abcdefghijklmnopqrstuvwxyz
+npm install github:FabianLars/tauri-plugin-download#1234567890abcdefghijklmnopqrstuvwxyz
 # or
-yarn add github:tauri-apps/tauri-plugin-download#1234567890abcdefghijklmnopqrstuvwxyz
+yarn add github:FabianLars/tauri-plugin-download#1234567890abcdefghijklmnopqrstuvwxyz
 ```
 
 `Install from a branch`
 
 ```
-npm install github:tauri-apps/tauri-plugin-download#main
+npm install github:FabianLars/tauri-plugin-download#main
 # or
-yarn add github:tauri-apps/tauri-plugin-download#main
+yarn add github:FabianLars/tauri-plugin-download#main
 ```
 
 Use within your JS/TS:
