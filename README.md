@@ -1,7 +1,5 @@
 # Tauri Plugin Download
 
-![Test](https://github.com/tauri-apps/tauri-plugin-download/workflows/Test/badge.svg)
-
 This plugin provides an interface for file downloads.
 
 ## Architecture
