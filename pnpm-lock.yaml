@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-terser': 0.1.0
   '@rollup/plugin-typescript': 10.0.0
   '@tauri-apps/api': ^1.2.0
-  rollup: 3.5.0
+  rollup: 3.5.1
   tslib: ^2.4.1
   typescript: 4.9.3
 
@@ -14,10 +14,10 @@ dependencies:
   tslib: 2.4.1
 
 devDependencies:
-  '@rollup/plugin-node-resolve': 15.0.1_rollup@3.5.0
-  '@rollup/plugin-terser': 0.1.0_rollup@3.5.0
-  '@rollup/plugin-typescript': 10.0.0_3qldpvhx2vwhgdtnpkk4u5tuly
-  rollup: 3.5.0
+  '@rollup/plugin-node-resolve': 15.0.1_rollup@3.5.1
+  '@rollup/plugin-terser': 0.1.0_rollup@3.5.1
+  '@rollup/plugin-typescript': 10.0.0_3d7bvrhnnvjmhphi3zgbz54owe
+  rollup: 3.5.1
   typescript: 4.9.3
 
 packages:
@@ -59,7 +59,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@rollup/plugin-node-resolve/15.0.1_rollup@3.5.0:
+  /@rollup/plugin-node-resolve/15.0.1_rollup@3.5.1:
     resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -68,16 +68,16 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.5.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.5.1
       '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
       resolve: 1.22.1
-      rollup: 3.5.0
+      rollup: 3.5.1
     dev: true
 
-  /@rollup/plugin-terser/0.1.0_rollup@3.5.0:
+  /@rollup/plugin-terser/0.1.0_rollup@3.5.1:
     resolution: {integrity: sha512-N2KK+qUfHX2hBzVzM41UWGLrEmcjVC37spC8R3c9mt3oEDFKh3N2e12/lLp9aVSt86veR0TQiCNQXrm8C6aiUQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -86,11 +86,11 @@ packages:
       rollup:
         optional: true
     dependencies:
-      rollup: 3.5.0
+      rollup: 3.5.1
       terser: 5.15.1
     dev: true
 
-  /@rollup/plugin-typescript/10.0.0_3qldpvhx2vwhgdtnpkk4u5tuly:
+  /@rollup/plugin-typescript/10.0.0_3d7bvrhnnvjmhphi3zgbz54owe:
     resolution: {integrity: sha512-iaTcQCbqTBA+vYS8uAVqvZvYXPobHBkz/tPYudqdMIz8QIjlPFNNFLpFX18rHGjLvGT9vUghd6GwE4ZpLhCnfA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -103,14 +103,14 @@ packages:
       tslib:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.2_rollup@3.5.0
+      '@rollup/pluginutils': 5.0.2_rollup@3.5.1
       resolve: 1.22.1
-      rollup: 3.5.0
+      rollup: 3.5.1
       tslib: 2.4.1
       typescript: 4.9.3
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@3.5.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.5.1:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -122,7 +122,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 3.5.0
+      rollup: 3.5.1
     dev: true
 
   /@tauri-apps/api/1.2.0:
@@ -220,8 +220,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup/3.5.0:
-    resolution: {integrity: sha512-TYu2L+TGhmNsXCtByont89u+ATQLcDy6A+++PwLXYunRtOm7XnaD+65s1pvewaOxMYR0eOkMXn9/i0saBxxpnQ==}
+  /rollup/3.5.1:
+    resolution: {integrity: sha512-hdQWTvPeiAbM6SUkxV70HdGUVxsgsc+CLy5fuh4KdgUBJ0SowXiix8gANgXoG3wEuLwfoJhCT2V+WwxfWq9Ikw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
