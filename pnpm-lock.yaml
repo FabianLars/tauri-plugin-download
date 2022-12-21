@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rollup/plugin-node-resolve': 15.0.1
-  '@rollup/plugin-terser': 0.2.0
+  '@rollup/plugin-terser': 0.2.1
   '@rollup/plugin-typescript': 10.0.1
   '@tauri-apps/api': ^1.2.0
   rollup: 3.7.5
@@ -15,7 +15,7 @@ dependencies:
 
 devDependencies:
   '@rollup/plugin-node-resolve': 15.0.1_rollup@3.7.5
-  '@rollup/plugin-terser': 0.2.0_rollup@3.7.5
+  '@rollup/plugin-terser': 0.2.1_rollup@3.7.5
   '@rollup/plugin-typescript': 10.0.1_lm43bqmazlmc7bh6tmgin6rwzu
   rollup: 3.7.5
   typescript: 4.9.4
@@ -77,8 +77,8 @@ packages:
       rollup: 3.7.5
     dev: true
 
-  /@rollup/plugin-terser/0.2.0_rollup@3.7.5:
-    resolution: {integrity: sha512-UBr4WNXBFipKW2C2db9JIzIdq9bFZsaTZwKeAd9Y0N9Pv9G2XgRhaimGdotx1+Wf/2XTuTJ+FVS2SO+y2WyiUQ==}
+  /@rollup/plugin-terser/0.2.1_rollup@3.7.5:
+    resolution: {integrity: sha512-hV52c8Oo6/cXZZxVVoRNBb4zh+EKSHS4I1sedWV5pf0O+hTLSkrf6w86/V0AZutYtwBguB6HLKwz89WDBfwGOA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.x || ^3.x
