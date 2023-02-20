@@ -1,5 +1,9 @@
 # Tauri Plugin Download
 
+**[DEPRECATED] Please use the _upload_ plugin from https://github.com/tauri-apps/plugins-workspace/tree/dev/plugins/upload** (it has a `download` function too now)
+
+----
+
 This plugin provides an interface for file downloads.
 
 ## Architecture
